@@ -1,0 +1,32 @@
+open cmd
+>>sqlplus
+username is system
+password is wd123456
+
+to execute command, start with @space
+@ E:\test\CompanyDefine.sql
+@ E:\test\CompanyInsert.sql
+@ E:\test\CompanySelect.SQL
+@ E:\test\ElectronicsDefine.sql
+@ E:\test\ElectronicsInsert.SQL
+@ E:\test\ElectronicsSelect.SQL
+exit
+------------------------
+to enter from sql command prompt
+SQL> connect system
+
+----------------------------
+to have output shown
+set serveroutput on;
+
+to run or rerun script, just slash or RUN
+/
+RUN
+to finish edit a script, put a period
+.
+
+
+
+
+@ E:\tmp\code.SQL
+@ E:\tmp\CompanySelect.SQL
